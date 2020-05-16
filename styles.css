@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 9vw;
+  height: 16vh;
+  background-color: red;
+  margin: auto;
+  padding: 0;
+  animation-name: boxAnimation;
+  animation-duration: 3s;
+}
+
+@keyframes boxAnimation{
+  0% {width: 9vw;}
+  100% {width: 100vw;}
+}
