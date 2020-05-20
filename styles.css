@@ -1,18 +1,52 @@
 body {
-  margin: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 60s ease infinite;
+  overflow: hidden;
 }
 
-.box {
-  width: 9vw;
-  height: 16vh;
-  background-color: red;
-  margin: auto;
-  padding: 0;
-  animation-name: boxAnimation;
-  animation-duration: 3s;
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
+
+.box1 {
+  margin: auto;
+  width: 1px;
+  height: 1px;
+  opacity: 0.1;
+  background-color: pink;
+  animation-name: boxAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  border: 1px solid black;
+
+}
+/*
+.box2 {
+  width: 1px;
+  height: 1px;
+  opacity: 0.1;
+  background-color: pink;
+  animation-name: boxAnimation;
+  animation-duration: 20s;
+  animation-delay: 17s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  border: 1px solid black;
+
+} */
 
 @keyframes boxAnimation{
-  0% {width: 9vw;}
-  100% {width: 100vw;}
+  0% {width: 1px; height: 1px;}
+  50% {width: 100px; height: 100px; opacity: 1;}
+  100% {width: 1px; height: 1px;}
 }
