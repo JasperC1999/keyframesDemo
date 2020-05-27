@@ -17,10 +17,9 @@ body {
   }
 }
 
-.box1 {
-  margin: auto;
-  width: 1px;
-  height: 1px;
+.box {
+  width: 1vw;
+  height: 1vh;
   opacity: 0.1;
   background-color: pink;
   animation-name: boxAnimation;
@@ -28,8 +27,92 @@ body {
   animation-iteration-count: infinite;
   border-radius: 50%;
   border: 1px solid black;
-
 }
+.box1 {
+  top: 0vh;
+  left: 0vw;
+}
+.box2 {
+  top: 10vh;
+  left: 0vw;
+}
+.box3 {
+  top: 10vh;
+  left: 10vw;
+}
+.box4 {
+  top: 20vh;
+  left: 10vw;
+}
+.box5 {
+  top: 20vh;
+  left: 20vw;
+}
+.box6 {
+  top: 30vh;
+  left: 20vw;
+}
+.box7 {
+  top: 30vh;
+  left: 30vw;
+}
+.box8 {
+  top: 40vh;
+  left: 30vw;
+}
+.box9 {
+  top: 40vh;
+  left: 40vw;
+}
+.box10 {
+  top: 50vh;
+  left: 40vw;
+}
+.box11 {
+  top: 50vh;
+  left: 50vw;
+}
+.box12 {
+  top: 60vh;
+  left: 50vw;
+}
+.box13 {
+  top: 60vh;
+  left: 60vw;
+}
+.box14 {
+  top: 70vh;
+  left: 60vw;
+}
+.box15 {
+  top: 70vh;
+  left: 70vw;
+}
+.box16 {
+  top: 80vh;
+  left: 70vw;
+}
+.box17 {
+  top: 80vh;
+  left: 80vw;
+}
+.box18 {
+  top: 90vh;
+  left: 80vw;
+}
+.box19 {
+  top: 90vh;
+  left: 90vw;
+}
+.box20 {
+  top: 100vh;
+  left: 90vw;
+}
+.box21 {
+  top: 100vh;
+  left: 100vw;
+}
+
 /*
 .box2 {
   width: 1px;
